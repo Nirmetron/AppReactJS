@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import ExpenseItem from './Components/Expenseitem.jsx'
+import ExpenseItems from './Components/ExpenseItems.jsx'
 
 import './App.css'
 
@@ -30,10 +30,7 @@ function App() {
   return (
     <>
       <h1>Heheheheha</h1>
-    <ExpenseItem expense={expenses[0]}/>
-    <ExpenseItem expense={expenses[1]}/>
-    <ExpenseItem expense={expenses[2]}/>
-    <ExpenseItem expense={expenses[3]}/>
+    <ExpenseItems expenses={expenses}/>
     </>
   )
 }
