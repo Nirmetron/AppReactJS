@@ -18,6 +18,20 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+#expense-list{
+  display: flex;
+  gap: 5vw;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.expense-item {
+  border: 5px solid darkmagenta;
+  border-radius: 10px;
+  padding: 10px;
+}
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
