@@ -24,12 +24,17 @@
   text-align: center;
   justify-content: center;
   align-content: center;
+  border-radius: 0.8rem;
+  background-color: rgb(73, 73, 73);
+  padding: 1.4rem;
+  margin-bottom: 100px;
 }
 
 .expense-item {
   border: 5px solid darkmagenta;
   border-radius: 10px;
-  padding: 10px;
+  padding: 1rem;
+  width: 20%;
 }
 
 @keyframes logo-spin {
