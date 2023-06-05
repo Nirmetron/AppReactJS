@@ -1,10 +1,8 @@
-import { useState } from 'react'
 import ExpenseItems from './Components/ExpenseItems.jsx'
 
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
   const expenses = [
     {
       id: 'e1',
